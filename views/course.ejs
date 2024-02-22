@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learning Endless</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/course_html.css" />
+  </head>
+  <body>
+    <%- include("includes/header.ejs")%>
+
+    <div class="container" id="courseContainer">
+      <h2>Academic Courses</h2>
+      <% if(courses.length!=0){ %> <% for(const course of courses){%>
+      <div class="course-card">
+        <img src="<%=course.picture%>" />
+        <h3><%=course.title%></h3>
+        <p><%=course.summary%></p>
+        <!--<button class="enroll-button">Enroll Now</button>-->
+        <a class="enroll-button" href="/course/<%= course._id %>">Enroll Now</a>
+      </div>
+      <%}%> <%}%>
+    </div>
+    <div class="container" id="courseContainer">
+      <h2>Skills:Technical Courses</h2>
+      <% if(courses.length!=0){ %> <% for(const course of courses){%>
+      <div class="course-card">
+        <img src="<%=course.picture%>" />
+        <h3><%=course.title%></h3>
+        <p><%=course.summary%></p>
+        <!--<button class="enroll-button">Enroll Now</button>-->
+        <a class="enroll-button" href="/course/<%= course._id %>">Enroll Now</a>
+      </div>
+      <%}%> <%}%>
+    </div>
+    <div class="container" id="courseContainer">
+      <h2>Skills : Non Technical Courses</h2>
+      <% if(courses.length!=0){ %> <% for(const course of courses){%>
+      <div class="course-card">
+        <img src="<%=course.picture%>" />
+        <h3><%=course.title%></h3>
+        <p><%=course.summary%></p>
+        <!--<button class="enroll-button">Enroll Now</button>-->
+        <a class="enroll-button" href="/course/<%= course._id %>">Enroll Now</a>
+      </div>
+      <%}%> <%}%>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
