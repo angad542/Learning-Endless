@@ -1,1 +1,6 @@
-# Learning-Endless
+Our website is an intra college based website which helps students in academics by their seniors of their college through one on one assistance and helps senior for their college's extra expense.
+Our website solves the academic problem for students who are not able to study welll in lectures;need personalised one one assistance;or study more effectively in an unconventional classroom environment like GD or with friends.The senior of that college who is teaching will also receive payment which incentivises the opportunity to pay off college's extra expense.Students can learn from their seniors for college's cirriculum for that subject and can even go beyond the scope of the course. Students who dont have any senior peers or are not in any society, this provides a great networking opportunity for them.
+There are 2 modes offline and online.
+The senior who will be verified by us as we will approach them at initial stages and at later stages review their requests.A max group of 8 studnets can be allotted to an individual for offline one on one assistance .This helps in solving errors,numericals and specially subjects which are not available on youtube according to our college cirriculum.
+Additionally we will provide technical,non-technical courses as well as internship and placement roadmaps.
+Our website is an intra college based website which can be expanded to every college.
